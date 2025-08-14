@@ -1,10 +1,10 @@
 import './style.css'
 
 const menuBtn = document.querySelector('.menu')
-const navBar = document.querySelector('.nav-bar')
+const nav = document.querySelector('nav')
 
 menuBtn.addEventListener('click', () => {
-  navBar.classList.toggle('visible')
+  nav.classList.toggle('visible')
 })
 
 const container = document.querySelector('.container')
